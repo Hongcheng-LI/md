@@ -32,9 +32,11 @@ h2 {
 /* ==================== H3 ==================== */
 h3 {
   display: table;
+  border: none;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.14);
+  padding-left: 0;
   margin: calc(1.7em * var(--md-block-spacing)) auto calc(0.8em * var(--md-block-spacing));
   padding-bottom: 0.15em;
-  border-bottom: 2px dashed rgba(0, 0, 0, 0.14);
   font-size: calc(var(--md-font-size) * 1.05);
   font-weight: 700;
   color: #374151;
