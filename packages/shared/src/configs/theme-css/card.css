@@ -1,0 +1,184 @@
+/**
+ * Card theme (卡片) — soft, rounded, centered headings.
+ * Pill-shaped section titles, generous radii, light shadows,
+ * breathing space between blocks.
+ */
+
+/* ==================== H1 ==================== */
+h1 {
+  display: table;
+  text-align: center;
+  margin: calc(2.2em * var(--md-block-spacing)) auto calc(1.4em * var(--md-block-spacing));
+  padding: 0.2em 0.4em;
+  border-bottom: 3px solid var(--md-primary-color);
+  font-size: calc(var(--md-font-size) * 1.32);
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* ==================== H2 ==================== */
+h2 {
+  display: table;
+  margin: calc(2em * var(--md-block-spacing)) auto calc(1.1em * var(--md-block-spacing));
+  padding: 0.3em 1.4em;
+  background: #f4f5f7;
+  border-radius: 999px;
+  font-size: calc(var(--md-font-size) * 1.15);
+  font-weight: 700;
+  text-align: center;
+  color: var(--md-primary-color);
+}
+
+/* ==================== H3 ==================== */
+h3 {
+  display: table;
+  margin: calc(1.7em * var(--md-block-spacing)) auto calc(0.8em * var(--md-block-spacing));
+  padding-bottom: 0.15em;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.14);
+  font-size: calc(var(--md-font-size) * 1.05);
+  font-weight: 700;
+  color: #374151;
+}
+
+/* ==================== H4 ==================== */
+h4 {
+  font-size: var(--md-font-size);
+  font-weight: 700;
+  color: #374151;
+}
+
+/* ==================== H5 ==================== */
+h5 {
+  font-size: var(--md-font-size);
+  color: #4b5563;
+}
+
+/* ==================== H6 ==================== */
+h6 {
+  font-size: var(--md-font-size);
+  color: #6b7280;
+}
+
+/* ==================== Paragraph ==================== */
+p {
+  color: #374151;
+  margin-bottom: calc(1.1em * var(--md-block-spacing));
+  line-height: 1.9;
+}
+
+/* ==================== Blockquote ==================== */
+blockquote {
+  border: none;
+  border-radius: 12px;
+  background: var(--md-blockquote-background, #f8f9fb);
+  padding: 0.9em 1.2em;
+  color: #4b5563;
+  font-style: normal;
+  margin-bottom: calc(1.1em * var(--md-block-spacing));
+}
+
+blockquote p {
+  color: #4b5563;
+}
+
+.markdown-alert {
+  font-style: normal;
+  border-radius: 12px;
+}
+
+/* ==================== Code ==================== */
+.codespan {
+  font-family: 'JetBrains Mono', Menlo, Consolas, Monaco, monospace;
+  background: #f1f2f6;
+  color: #d6336c;
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+
+pre.code__pre,
+.hljs.code__pre {
+  border-radius: 12px;
+}
+
+pre.code__pre > code,
+.hljs.code__pre > code {
+  font-family: 'JetBrains Mono', Menlo, Consolas, Monaco, monospace;
+}
+
+/* ==================== Images ==================== */
+img {
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(17, 24, 39, 0.08);
+}
+
+figcaption,
+.md-figcaption {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.8em;
+  margin-top: 0.4em;
+}
+
+/* ==================== Lists ==================== */
+ul {
+  list-style: none;
+  padding-left: 1.4em;
+  color: #374151;
+}
+
+ol {
+  padding-left: 1.6em;
+  color: #374151;
+}
+
+li {
+  margin: calc(0.45em * var(--md-block-spacing)) 0;
+}
+
+/* ==================== Horizontal rules ==================== */
+hr {
+  border: none;
+  border-top: 2px dashed #e5e7eb;
+  margin: calc(2.2em * var(--md-block-spacing)) auto;
+  width: 80%;
+}
+
+/* ==================== Links ==================== */
+a {
+  color: var(--md-link-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--md-link-color);
+}
+
+/* ==================== Emphasis ==================== */
+strong {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ==================== Tables ==================== */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #374151;
+  font-size: calc(var(--md-font-size) * 0.92);
+  box-shadow: 0 4px 12px rgba(17, 24, 39, 0.06);
+}
+
+thead {
+  background: #f4f5f7;
+  color: #1f2937;
+}
+
+th,
+td {
+  border-bottom: 1px solid #eef0f3;
+  padding: 0.55em 1em;
+  text-align: left;
+}

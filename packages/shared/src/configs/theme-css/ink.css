@@ -1,0 +1,171 @@
+/**
+ * Ink theme (墨韵) — minimal editorial, black & white.
+ * Symmetric thin rules for H1, thin left rule for H2, no shadows, no radii.
+ * Uses var(--md-primary-color) for accents; safe for WeChat inline export
+ * (no pseudo-elements).
+ */
+
+/* ==================== H1 ==================== */
+h1 {
+  text-align: center;
+  border-top: 1px solid #2b2b2b;
+  border-bottom: 1px solid #2b2b2b;
+  padding: 0.6em 0.5em;
+  margin: calc(2.5em * var(--md-block-spacing)) auto calc(1.5em * var(--md-block-spacing));
+  font-size: calc(var(--md-font-size) * 1.35);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #1a1a1a;
+}
+
+/* ==================== H2 ==================== */
+h2 {
+  border-left: 3px solid var(--md-primary-color);
+  padding-left: 0.7em;
+  margin: calc(2.2em * var(--md-block-spacing)) 0 calc(1em * var(--md-block-spacing));
+  font-size: calc(var(--md-font-size) * 1.2);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #1a1a1a;
+}
+
+/* ==================== H3 ==================== */
+h3 {
+  margin: calc(1.8em * var(--md-block-spacing)) 0 calc(0.8em * var(--md-block-spacing));
+  font-size: calc(var(--md-font-size) * 1.08);
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+/* ==================== H4 ==================== */
+h4 {
+  font-size: var(--md-font-size);
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+/* ==================== H5 ==================== */
+h5 {
+  font-size: var(--md-font-size);
+  color: #444;
+}
+
+/* ==================== H6 ==================== */
+h6 {
+  font-size: var(--md-font-size);
+  color: #666;
+}
+
+/* ==================== Paragraph ==================== */
+p {
+  color: #333;
+  margin-bottom: calc(1em * var(--md-block-spacing));
+  line-height: 1.9;
+}
+
+/* ==================== Blockquote ==================== */
+blockquote {
+  border-left: 2px solid #b3b3b3;
+  padding: 0.2em 0 0.2em 1.2em;
+  color: #666;
+  background: var(--md-blockquote-background, transparent);
+  font-style: normal;
+  margin-bottom: calc(1em * var(--md-block-spacing));
+}
+
+.markdown-alert {
+  font-style: normal;
+}
+
+/* ==================== Code ==================== */
+.codespan {
+  font-family: 'JetBrains Mono', Menlo, Consolas, Monaco, monospace;
+  border-bottom: 1px dashed #b3b3b3;
+  padding: 0 2px;
+}
+
+pre.code__pre,
+.hljs.code__pre {
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+}
+
+pre.code__pre > code,
+.hljs.code__pre > code {
+  font-family: 'JetBrains Mono', Menlo, Consolas, Monaco, monospace;
+}
+
+/* ==================== Images ==================== */
+img {
+  border-radius: 0;
+}
+
+figcaption,
+.md-figcaption {
+  text-align: center;
+  color: #999;
+  font-size: 0.8em;
+  letter-spacing: 0.04em;
+}
+
+/* ==================== Lists ==================== */
+ul {
+  list-style: square;
+  padding-left: 1.2em;
+  color: #333;
+}
+
+ol {
+  padding-left: 1.5em;
+  color: #333;
+}
+
+li {
+  display: list-item;
+  margin: calc(0.3em * var(--md-block-spacing)) 0;
+}
+
+/* ==================== Horizontal rules ==================== */
+hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  width: 32%;
+  margin: calc(2.5em * var(--md-block-spacing)) auto;
+}
+
+/* ==================== Links ==================== */
+a {
+  color: var(--md-link-color);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+/* ==================== Emphasis ==================== */
+strong {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ==================== Tables ==================== */
+table {
+  border-collapse: collapse;
+  color: #333;
+  font-size: calc(var(--md-font-size) * 0.92);
+}
+
+thead {
+  background: #f5f5f5;
+  color: #1a1a1a;
+}
+
+th,
+td {
+  border: 1px solid #e0e0e0;
+  padding: 0.5em 0.9em;
+  text-align: left;
+}

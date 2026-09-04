@@ -201,6 +201,9 @@ export default {
       default: { label: `クラシック`, desc: `` },
       grace: { label: `Grace`, desc: `{'@'}brzhang` },
       simple: { label: `シンプル`, desc: `{'@'}okooo5km` },
+      ink: { label: `墨韻`, desc: `ミニマル誌面` },
+      geek: { label: `ギーク`, desc: `高密度` },
+      card: { label: `カード`, desc: `柔らかい角丸` },
     },
     fontFamily: {
       sansSerif: { label: `ゴシック`, desc: `Font123Abc` },

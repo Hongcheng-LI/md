@@ -201,6 +201,9 @@ export default {
       default: { label: `经典`, desc: `` },
       grace: { label: `优雅`, desc: `{'@'}brzhang` },
       simple: { label: `简洁`, desc: `{'@'}okooo5km` },
+      ink: { label: `墨韵`, desc: `极简杂志` },
+      geek: { label: `极客`, desc: `高密度` },
+      card: { label: `卡片`, desc: `柔和圆角` },
     },
     fontFamily: {
       sansSerif: { label: `无衬线`, desc: `字体123Abc` },

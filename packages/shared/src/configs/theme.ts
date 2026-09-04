@@ -25,6 +25,21 @@ export const themeOptionsMap = {
     value: `simple`,
     desc: `@okooo5km`,
   },
+  ink: {
+    label: `墨韵`,
+    value: `ink`,
+    desc: `极简杂志`,
+  },
+  geek: {
+    label: `极客`,
+    value: `geek`,
+    desc: `高密度`,
+  },
+  card: {
+    label: `卡片`,
+    value: `card`,
+    desc: `柔和圆角`,
+  },
 }
 
 export const themeOptions: IConfigOption<ThemeName>[] = [
@@ -42,5 +57,20 @@ export const themeOptions: IConfigOption<ThemeName>[] = [
     label: `简洁`,
     value: `simple`,
     desc: `@okooo5km`,
+  },
+  {
+    label: `墨韵`,
+    value: `ink`,
+    desc: `极简杂志`,
+  },
+  {
+    label: `极客`,
+    value: `geek`,
+    desc: `高密度`,
+  },
+  {
+    label: `卡片`,
+    value: `card`,
+    desc: `柔和圆角`,
   },
 ]

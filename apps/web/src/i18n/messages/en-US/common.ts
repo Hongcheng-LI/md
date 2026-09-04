@@ -201,6 +201,9 @@ export default {
       default: { label: `Classic`, desc: `` },
       grace: { label: `Grace`, desc: `{'@'}brzhang` },
       simple: { label: `Simple`, desc: `{'@'}okooo5km` },
+      ink: { label: `Ink`, desc: `Minimal editorial` },
+      geek: { label: `Geek`, desc: `High density` },
+      card: { label: `Card`, desc: `Soft & rounded` },
     },
     fontFamily: {
       sansSerif: { label: `Sans`, desc: `Font123Abc` },
